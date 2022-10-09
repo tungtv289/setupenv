@@ -1,0 +1,82 @@
+{
+    // Open files always in a new tab
+    "workbench.editor.enablePreview": false,
+    // copy on select terminal
+    "terminal.integrated.copyOnSelection": true,
+
+    "workbench.startupEditor": "newUntitledFile",
+    "update.mode": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 12,
+    "diffEditor.renderSideBySide": false,
+    "terminal.integrated.inheritEnv": false,
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[xml]": {
+        // "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.suggestSelection": "first",
+    "git.ignoreLegacyWarning": true,
+    
+    // python
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.defaultInterpreterPath": "/Users/trantung/miniconda3/envs/de/bin/python",
+    "python.pythonPath": "/Users/trantung/miniconda3/envs/d2l/bin/python",
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=cv2",
+        "--generated-members"
+    ],
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "settingsSync.ignoredSettings": [],
+    "docker.containers.groupBy": "Networks",
+    "docker.containers.description": [
+        "Ports",
+        "Status"
+    ],
+    "docker.images.groupBy": "None",
+    "docker.images.label": "RepositoryName",
+    "docker.images.description": [
+        "CreatedTime",
+        "Size",
+        "Tag"
+    ],
+    "docker.images.sortBy": "Label",
+    "workbench.colorCustomizations": {
+    
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.associations": {
+        "*.module": "php"
+    },
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/.history/**"
+    ],
+    "intelephense.telemetry.enabled": false,
+    "intelephense.completion.triggerParameterHints": true,
+    "intelephense.completion.insertUseDeclaration": true,
+    "intelephense.trace.server": "messages",
+}
